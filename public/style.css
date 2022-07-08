@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.first-body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('/assets/bacgrou.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.center-div{
+    padding-top: 10%;
+}
+
+.title-h2{
+    font-weight: 600;
+}
+
+.btn{
+    padding: .4em 2em;
+    background-color:  #59e1f3;
+    border: #76b1e3;
+    color: white;
+} 
+.btn:hover{
+    background-color: #00c1da;
+    border: #93bfe5;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    padding: 0 3em;
+}
+
+.title>span{
+    font-size: .8em;
+}
+
+.main-box{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Dashboard */
+
+.blk{
+    color: rgb(59, 58, 58);
+}
+
+.bglight{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.bg-2{
+    background: rgb(31,24,149);
+    background: -moz-linear-gradient(0deg, rgba(31,24,149,1) 0%, rgba(206,45,223,1) 50%, rgba(89,224,243,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(31,24,149,1) 0%, rgba(206,45,223,1) 50%, rgba(89,224,243,1) 100%);
+    background: linear-gradient(0deg, rgba(31,24,149,1) 0%, rgba(206,45,223,1) 50%, rgba(89,224,243,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f1895",endColorstr="#59e0f3",GradientType=1);
+}
+
+.text-con h1{
+    text-align: center;
+    color: white;
+}
+
+.text-con h1::after{
+    content: " ";
+    background: #000;
+    height: 4px;
+    width: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.cn{
+    text-align: center;
+}
